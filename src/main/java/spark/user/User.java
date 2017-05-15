@@ -1,5 +1,6 @@
 package spark.user;
 
+import spark.dao.Entity;
 import spark.tweet.Tweet;
 
 import java.util.ArrayList;
@@ -9,7 +10,7 @@ import java.util.Objects;
 /**
  * Created by hein on 5/15/17.
  */
-public class User {
+public class User implements Entity{
 
     private Long id;
     private String username;

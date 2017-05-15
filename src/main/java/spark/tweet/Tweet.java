@@ -1,5 +1,6 @@
 package spark.tweet;
 
+import spark.dao.Entity;
 import spark.user.User;
 
 import java.time.LocalDateTime;
@@ -7,7 +8,7 @@ import java.time.LocalDateTime;
 /**
  * Created by hein on 5/15/17.
  */
-public class Tweet {
+public class Tweet implements Entity{
 
     private Long id;
     private String text;
